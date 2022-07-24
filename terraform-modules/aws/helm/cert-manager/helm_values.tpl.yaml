@@ -1,6 +1,0 @@
----
-installCRDs: true
-
-serviceAccount:
-  annotations:
-    eks.amazonaws.com/role-arn: "arn:aws:iam::${awsAccountID}:role/${chartName}-${clusterName}"
